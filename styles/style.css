@@ -91,7 +91,8 @@ img {
   margin-top: 178px;
   margin-bottom: 128px;
 }
-.featured p {
+.featured p,
+.instragram p {
   max-width: 594px;
   margin: 0 auto;
 }
@@ -182,10 +183,21 @@ img {
   justify-content: space-around;
   align-items: center;
 }
-.deal_col{
-text-align: center;
+.deal_col {
+  text-align: center;
 }
-.deal_col p{
-max-width: 594px;
-margin: 24px auto;
+.deal_col p {
+  max-width: 594px;
+  margin: 24px auto;
+}
+
+/* instragram */
+.instragram {
+  text-align: center;
+  margin-top: 128px;
+}
+.intragram_imgs{
+display: flex;
+gap: 24px;
+margin-top: 48px;
 }

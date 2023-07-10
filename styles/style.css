@@ -196,8 +196,36 @@ img {
   text-align: center;
   margin-top: 128px;
 }
-.intragram_imgs{
-display: flex;
-gap: 24px;
+.intragram_imgs {
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+}
+/* Subscribe  */
+
+.subscribe_content {
+  background-image: url("../images/subscribe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 128px 0;
+  text-align: center;
+  padding: 122px 0;
+}
+.input_area{
 margin-top: 48px;
+}
+.input_area .email_field {
+  width: 700px;
+  padding: 22px;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  margin-right: 20px;
+}
+::placeholder{
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
 }

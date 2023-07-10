@@ -124,3 +124,46 @@ img {
   margin-top: 32px;
   text-decoration: underline;
 }
+
+/* Delivery */
+.delivery {
+  background: rgba(71, 125, 17, 0.15);
+  text-align: center;
+  padding: 110px;
+}
+.delivery_col {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 80px;
+}
+.delivery_item {
+  background: #fff;
+  width: 350px;
+
+  padding: 72px 36px 83px;
+}
+.border_radius {
+  border-radius: 80px 0;
+}
+.border_radius_bottom {
+  border-radius: 0px 80px;
+}
+.delivery_icons {
+  margin-bottom: 34px;
+}
+.delivery_icons i {
+  background: #e2809f1a;
+  color: #e2809f;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 30px;
+  border-radius: 100%;
+
+}
+.delivery_icons:hover i{
+  background: #e2809f;
+  color: #fff;
+}
+.delivery_item h4{margin-bottom: 20px;}

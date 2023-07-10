@@ -53,6 +53,9 @@ img {
   color: #e55473;
   border: 2px solid #e55473;
 }
+.span_color {
+  color: #e55473;
+}
 /* Banner style */
 .banner {
   height: 100vh;
@@ -160,10 +163,29 @@ img {
   line-height: 80px;
   font-size: 30px;
   border-radius: 100%;
-
 }
-.delivery_icons:hover i{
+.delivery_icons:hover i {
   background: #e2809f;
   color: #fff;
 }
-.delivery_item h4{margin-bottom: 20px;}
+.delivery_item h4 {
+  margin-bottom: 20px;
+}
+/* Hot deal */
+
+.hot_deal {
+  background: rgba(229, 84, 115, 0.05);
+  padding: 100px 0;
+}
+.hot_deal_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.deal_col{
+text-align: center;
+}
+.deal_col p{
+max-width: 594px;
+margin: 24px auto;
+}
